@@ -1,10 +1,18 @@
-
+import { ADD_NEW_PRESCRIPTION } from '../ActionTypes/ActionTypes';
 const initialState = {
-    doc: []
-  };
+  precriptions: []
+};
 
 const DoctorReducer = (state = initialState, action) => {
-  return state;
+  switch (action.type) {
+    case ADD_NEW_PRESCRIPTION:
+      return {
+        ...state,
+        precriptions: [...state.precriptions, action.payload]
+      }
+
+      default: return state;
+  }
 };
 
 export default DoctorReducer;

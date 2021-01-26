@@ -2,14 +2,12 @@
  * Listed application all color here
  */
 export default {
-  primaryColor: '#006fff',
-  secondaryColor: '#2a3845',
-  fontColor: '#878d98',
+  primaryColor: '#7034FA',
+  secondaryColor: '#F1EBFF',
+  fontColor: '#2E4453',
+  lightFontColor: '#6C6B6B',
   white: '#fff',
   black: '#000',
-  inputBorderColor: '#878d98',
+  lightButton: '#F3EEFF',
   error: 'red',
-  transparent: 'transparent',
-  lightBorder: '#ccd3d9',
-  lightGray: '#F2F4F4',
 };
